@@ -29,8 +29,9 @@
 
     🧰 Object Oriented Programming has following concepts which we have to deal with >
 
-        📗 Classes
+        📗 Classes 
         📃 Objetcs
+        🏓 Acces Specifiers
         👪Inheritance
         👩‍👩‍👦‍👦Polymorphism
         🔒 Encapsulation
@@ -41,7 +42,7 @@
 
 
 
-    🏛️ Classes are group of variables and functions .
+    🏛️ Classes are group of variables and functions.
 
     ✍ Note :
                 1️⃣ Variables declared inside a class are called DATA Members
@@ -51,14 +52,37 @@
 
                  class School{
 
-                     int _StudentCount; :bread:These are class variables
-                     String _SchoolAddress;
+                     int _StudentCount;     🍞These are class variables
+                     String _SchoolAddress; 🍞
 
 
-                        void _Input () :bow_and_arrow: This is Member Function
-                        {
+                        void _Input () {   🏹 This is Member Function
                             cin >> _StudentCount;
                             cin >> _SchoolAddress;
                         }
-
                  }
+
+    🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 
+
+
+    🧨 Objects can be created with different ways to
+        
+        1️⃣ <CLASS NAME > < OBJECT NAME > ;
+          🍊 Using this type of object initialization the object will be stored in stack memory.
+
+                😄 When you use this type of object initialization , Then to access the data members and member function you will need to use following syntax 
+
+                        <OBJECT NAME> . <DATA MEMBER> or <MEMBER FUNCTION>
+
+
+
+        
+        2️⃣ <CLASS NAME > * <OBJECT NAME> = new<CLASS NAME> ();
+            🍎 Using this type of object initialization the object will be stored in heap memory.
+
+                😄 When you use this type of object initialization , Then to access the data members and member function you will need to use following syntax 
+
+                <CLASS NAME> -> <DATA MEMBER> or <MEMBER FUNCTION>
+
+
+    
