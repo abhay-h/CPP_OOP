@@ -1,10 +1,10 @@
-    :books:Need of Object Oriented Programming  :>
+    📚Need of Object Oriented Programming  :>
 
-    :boom: There are many real life problems which can be solved by functional  programming approach.
+    💥 There are many real life problems which can be solved by functional  programming approach.
 
-    :rescue_worker_helmet: But it get's complicated to work with data.
+    🚁 But it get's complicated to work with data.
 
-    :ribbon: For example :> ,
+    🎀 For example :> ,
 
             
             void _MyCityHotels{
