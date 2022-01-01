@@ -1,4 +1,4 @@
-    📚Need of Object Oriented Programming  :>
+    📚Need of Object Oriented Programming :>
 
     💥 There are many real life problems which can be solved by functional  programming approach.
 
