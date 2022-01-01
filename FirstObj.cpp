@@ -3,14 +3,14 @@
  using namespace std;
 
   class Fib{
-       public:  //By default private if no access specfier is declared
+     public:  //By default private if no access specfier is declared
       string name;
       int number;
 
-  public:
+     public:
       void _Set_Get(){
              
-           cout << "enter a name :> ";
+            cout << "enter a name :> ";
             cin >>  name;
            cout << "\nenter a number :> ";
            cin >> number;
@@ -19,12 +19,10 @@
       }  
   };
 
-
  int main() {
 
       Fib Student1; // object
-    Student1._Set_Get();
+      Student1._Set_Get();
 
     return 0;
-
  } 
