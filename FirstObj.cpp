@@ -3,7 +3,7 @@
  using namespace std;
 
   class Fib{
-       public:  //By default private if left undeclared
+       public:  //By default private if no access specfier is declared
       string name;
       int number;
 
