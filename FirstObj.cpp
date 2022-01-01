@@ -1,59 +1,30 @@
-#include<iostream>
-#include<string>
-using namespace std;
+ #include<iostream>
+ #include<string>
+ using namespace std;
 
-// class Fib{
-//     // public: // By default private if left undeclared
-//     string name;
-//     int number;
+  class Fib{
+       public:  //By default private if left undeclared
+      string name;
+      int number;
 
-// public:
-//     void _Set_Get(){
+  public:
+      void _Set_Get(){
              
-//          cout << "enter name" << endl;
-//          cout << "number" << endl;
-//          cin >>  name;
-//          cin >> number;
-
-//         //  cout << name;
-//         // cout << number;
-//     }  
-// };
-
-class Lol {
-    private:
-    string sname;
-
-    
-    public:
-        void _Taker(){
-
-            int _ARRAY[5];
-        
-            
-            for(int i=0; i<5; i++){
-                
-                cin >>_ARRAY[i];
-            }
-
-            for(int i=0; i<5; i++){
-                
-                cout<<_ARRAY[i];
-            }
-        }
-};
-
-int main(int argc, char** argv) {
-
-    // Fib Student1(11,"Abhay"); // object
-
-    //  Student1._Set_Get();
-
-Lol S;
-
-S._Taker();
-   return 0;
-
-} 
+           cout << "enter a name :> ";
+            cin >>  name;
+           cout << "\nenter a number :> ";
+           cin >> number;
+            cout <<this-> name<<" :Is your name\n";
+           cout << this->number<<" :Is your number";
+      }  
+  };
 
 
+ int main() {
+
+      Fib Student1; // object
+    Student1._Set_Get();
+
+    return 0;
+
+ } 
