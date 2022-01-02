@@ -67,7 +67,7 @@
 
     🧨 Objects can be created with different ways to
         
-        1️⃣ <CLASS NAME > < OBJECT NAME > ;
+        1️⃣ <CLASS NAME > < OBJECT NAME > :
           🍊 Using this type of object initialization the object will be stored in stack memory.
 
                 😄 When you use this type of object initialization , Then to access the data members and member function you will need to use following syntax 
@@ -82,7 +82,7 @@
 
                 😄 When you use this type of object initialization , Then to access the data members and member function you will need to use following syntax 
 
-                <CLASS NAME> -> <DATA MEMBER> or <MEMBER FUNCTION>
+             <CLASS NAME> -> <DATA MEMBER> or <MEMBER FUNCTION>
 
 
     
