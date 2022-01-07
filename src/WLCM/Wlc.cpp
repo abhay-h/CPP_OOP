@@ -1,8 +1,8 @@
 #include<iostream>
-#include<string>
- 
+using namespace std;
 
 int main(int argc, char** argv) {
-std::cout<<"\tThis is C++ OOP repo ";
+cout<<"\t:This is C++ OOP repository:"<<endl;
+ 
 return 0;
 }
