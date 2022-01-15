@@ -22,4 +22,24 @@
 
                 In this type of inheritance there is only one child or derived class to a parent or base class
 
+
+
+     //   Code Example of Single Inheritance :
+        
+        class Libaray { // Base/parent class
+                public:
+                string BookName;
+                int TotalBooks;
+
+        };
+
+        class Storybooks : public Human(){ //Child/Derived class
+
+                void _Display(){
+                        cout << " welcome to libaray";
+                }
+        }
+
  
+   
+    ⚡  
