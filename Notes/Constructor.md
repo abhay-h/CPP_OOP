@@ -22,3 +22,10 @@
     main(){
         Car Driver1;
     }
+
+
+
+ 🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔🪔
+
+   * Copy Constructor
+      👍  A Copy constructor is an overloaded constructor used to  declare and initialize an object from another object.
