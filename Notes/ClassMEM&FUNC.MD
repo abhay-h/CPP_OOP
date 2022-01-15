@@ -9,3 +9,8 @@
 
             Class Attributes , Class Methods etc
          
+
+    
+
+        🍰Private class members can be accessed via public methods
+        

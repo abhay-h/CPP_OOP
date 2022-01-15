@@ -5,11 +5,8 @@
      📗 Objects
         🧑  real life things
         
-
-
+    ****************************************************************
     
-
-
     💻 Code (Can change language to language)
 
         class <classname>{
@@ -28,8 +25,6 @@
 
         };
         
- 
-
         int main(){
 
             Classname Objectname ;

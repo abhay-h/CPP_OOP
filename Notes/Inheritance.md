@@ -13,3 +13,13 @@
     3) Hierarchial Inheritance
     4) Hybrid Inheritance
     5) Multiple Inheritance
+
+
+🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁
+
+    
+    🎀 Single Inheritance : (Easy among all )
+
+                In this type of inheritance there is only one child or derived class to a parent or base class
+
+ 

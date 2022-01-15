@@ -9,3 +9,5 @@
     😈Constructor's syntax
 
     ~ClassName()
+
+    💤It helps to deallocate all memomry taken by class
