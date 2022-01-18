@@ -1,3 +1,4 @@
+//Distructor is used to delete memory used by constructor.
 #include<iostream>
 #include<string>
 
