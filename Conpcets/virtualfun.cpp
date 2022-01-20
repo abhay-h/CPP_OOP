@@ -11,11 +11,11 @@ class Animal{
     }
 
   virtual void show(){
-        std::cout <<"####**ll####"<<std::endl;
+        std::cout <<"####**####"<<std::endl;
     }
 
 };
-
+`
 class Dog : public Animal{
     public:
     void display(){
