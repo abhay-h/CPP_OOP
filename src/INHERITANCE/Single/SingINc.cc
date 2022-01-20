@@ -1,6 +1,4 @@
 #include<iostream>
-#include<string>
-
 class Shapes{
     protected:
         int Width,Height;
