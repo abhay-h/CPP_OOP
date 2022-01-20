@@ -6,3 +6,5 @@ cout<<"\t**************#################### This is C++ OOP repository #########
  
 return 0;
 }
+
+// sample welcome message
