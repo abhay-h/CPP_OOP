@@ -1,4 +1,4 @@
-// Use of encapsulation.
+// Use of encapsulation using simple programming 
 
 #include<iostream>
 #include<string>
