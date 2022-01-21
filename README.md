@@ -6,7 +6,7 @@
     
      🍊 Supposed to quick  and easy language 🥭
 
-    ****************************************************************************************
+    s
 
     💥 Just qiuck hot points to remember in no time 🥇 
 
