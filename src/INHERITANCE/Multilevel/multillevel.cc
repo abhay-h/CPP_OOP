@@ -1,4 +1,4 @@
-// Inheritance in which Base class has a derived class and derived classes have another derived class
+// Inheritance in which base class has a derived class and derived classes have another derived class
 
 /*
     │Base class│
@@ -14,54 +14,66 @@
     │Derivied class 3│
 
 
- Here There is a Base class and class 1 is derived class from Base,derived class 2 is derived from derived class 1 .................................................
+ Here There is a base class and class 1 is derived class from base,derived class 2 is derived from derived class 1 .................................................
 
 */
 
 #include <iostream>
-class Base // single Base class
+
+class Team
 {
-public:
-      int x;
-      void Getdata()
+      public:
+      int PlayerCount;
+      void CountTaken()
       {
-            std::cout << "Enter value of x= ";
-            std::cin >> x;
+            std::cout << "Enter Player count " << std::endl;
+            std::cin >> PlayerCount;
       }
 };
 
-class Derive1 : public Base // derived class from Base class
+class Games : public Team
 {
-public:
-      int y;
-      void Readdata()
+    public:
+    std::string GameName;
+      void AskGame()
       {
-            std::cout << "\nEnter value of y= ";
-            std::cin >> y;
+            std::cout << "What game is it ? " << std::endl;
+            std::cin >> GameName;
       }
 };
-class Derive2 : public Derive1 // derived from class derive1
+
+class Votes : public Games
 {
 private:
-      int z;
+      int Votes;
 
 public:
-      void Indata()
+      void TakeVotes()
       {
-            std::cout << "\nEnter value of z= ";
-            std::cin >> z;
+            std::cout << "How many players want to play the game ? " << std::endl;
+            std::cin >> Votes;
       }
-      void Product()
-      {
-            std::cout << "\nProduct= " << x * y * z;
+      void Decisions(){
+              
+
+            if(Votes <=5){
+                  std::cout << "Everyone back to classroom ";
+            }
+            else if (PlayerCount <=8){
+                  std::cout << "Everyone back to classroom ";
+            }
+             
       }
 };
-int main(int argc, char** argv)
+
+int main(int argc, char **argv)
 {
-      Derive2 a; // object of derived class
-      a.Getdata();
-      a.Readdata();
-      a.Indata();
-      a.Product();
+      Votes Inp;
+      Inp.CountTaken();
+      Inp.AskGame();
+      Inp.TakeVotes();
+      Inp.Decisions();
+       
+
       return 0;
-} 
+}

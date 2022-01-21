@@ -42,8 +42,36 @@
 
  
    
-    ⚡  
+ 
+ 
+        🧺
+        🍎🥭
+
+        Multiple Inheritance , is type of inheritance in which a class inherits from multiple class
+
+        for eg : Class A, Class B, Class C, Class D
+
+         Here Class D can inherit from Class A and Class C
 
 
 
-    
+
+
+        🧺
+        🍇
+        🍈
+        🍉
+        🍋
+        
+         Multilevel Inheritance : type of inheritance in which a class inherits from a derived class 
+
+         for eg : Class A(Base class), Class B, Class C, Class D
+
+         Here  Class D is inherit Class C , Class C inherits from Class B and Class B inherits from class A
+
+
+         Hybrid Inheritance : type of inheritance in which there is combination of different types of inheritance
+
+         for eg : Class A, Class B, Class C, Class D
+
+        Here   Class B inherits from Class A and Class  C inherits from Class A and D

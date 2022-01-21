@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string>
+// A virtual function help in achieving polymorphism
 
 
 class Animal{
