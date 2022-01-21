@@ -1,4 +1,4 @@
-// Type of inheritance where derived have inhereted from more than one base class
+// Type of inheritance where derived classs have inhereted from more than one base class
 
 #include <iostream>
 class Vehicle
@@ -6,15 +6,11 @@ class Vehicle
 protected:
     int tyers;
     int seats;
-    void greet()
-    {
-        std::cout << " Hello " << std::endl;
-    }
+
 };
 
 class Looks
 {
-
 protected:
     std::string Vehicle_Usage;
     void greet()
@@ -23,7 +19,7 @@ protected:
     }
 };
 
-class Truck : protected Vehicle, protected Looks
+class Truck : protected Vehicle, protected Looks // Class Truck inheriting both class vechicle and looks
 {
 
 public:
