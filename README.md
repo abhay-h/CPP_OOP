@@ -1,11 +1,11 @@
-    Welcome...
+        Welcome...
     
-    🎈Every OOP concept
+        🎈Every OOP concept
  
-     💯Problem solving using C++ - Object Oriented Programming ✔✈🙂
+        💯Problem solving using C++ - Object Oriented Programming ✔✈🙂
     
-     🍊 Supposed to quick  and easy language 🥭
+        🍊 Supposed to quick  and easy language 🥭
 
-    💥 Just qiuck hot points to remember in no time 🥇 
+        💥 Just qiuck hot points to remember in no time 🥇 
 
     
