@@ -1,4 +1,4 @@
-    Implementation details of the class are protected from the user level errors.
+    Implementation details of the class are protected from the user level .
 
     A programmer does not need to write the low level code.
     Data Abstraction avoids the code duplication, i.e., programmer does not have to undergo the same tasks every time to perform the similar operation.
