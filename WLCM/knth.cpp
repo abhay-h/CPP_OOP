@@ -11,6 +11,5 @@ for (int i= 0; i<n;i++){
 	std::cout << " \n H";
 
 	}
-
 return 0;
 }
